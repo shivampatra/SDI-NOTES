@@ -1,0 +1,23 @@
+Activity 1:
+Design an algorithm that performs the following operations –
+Consider we have 3 variables a, b and c.
+Data movement to be done as below
+Move original content of a -> to b
+Move original content of b -> to c
+Move original content of c -> to a
+Example – If initial values of a, b and c is as below
+a = 10, b = 20, c = 30
+After change
+a = 30, b = 10, c = 20
+
+Activity 2:
+Given a set of 3 student’s examination marks (in the range from 0 to 100), make a count of the number of students that have passed the exam. A pass is awarded if the students mark is greater than or equal to 35.
+
+Activity 3:
+Design an algorithm that reads a list of 5 numbers (both +ve and –ve) and makes a count of the number of negative and non-negative numbers in the list. Note – 0 must be considered as a +ve number in this algorithm.
+
+Activity 4:
+Design an algorithm that reads a number from the user and tells if it is even or odd or a zero.
+
+Activity 5:
+Given a set of 3 numbers, design an algorithm that adds these numbers and returns the resultant sum
