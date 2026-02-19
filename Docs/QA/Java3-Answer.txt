@@ -1,0 +1,66 @@
+A121. A
+Exception class and Error class are the subclass of Throwable.
+
+A122. C
+Throwable class is the sub class of Object class.
+
+A123. C
+Both, statements A and B, are true.
+
+A124. B
+    Throws AssertionError with message “The value must not be negative” because condition           of assert (i>=0) is false while sending the parameter -10 through main method in method m1.
+  
+A125. B
+False, true. 
+First print statement is false because Error class is not children of exception class both error and exception is the child of throwable class.
+2nd print statement is true because RuntimeException is the child class of exception.
+
+A126. C,D
+main() must provide a try-catch block for display() or
+main() must be declared with throws Exception clause.
+If any method throws the checked exception then caller method must have to handle the exception or caller method can also throw the exception.
+
+A127. B
+Assertion should be Validate arguments of a private method.
+You can validate the argument of public method (Compiler will not give any error) but this is not a legal use of assertion because assertion is not for client, it is for developer only to check their own assumption during development.
+
+A128. B,C
+A and D is wrong because overridden method cannot throw any checked exception.
+
+A129. B,C,D 
+-da , -enableassertions and –ea are valid switches.
+
+A130. C
+Because constructor of class A is throwing the exception and by extending class A in class C, constructor of class A is inherited in class C. So constructor of class C must have to throw the exception.
+ 
+A131. B
+Code will print 20 if executed with –ea option.
+Because value of i is become 5 while calling method m1 in main method due to that assert statement is false and it will throw exception “AssertionError” and assert statement is written inside try block so catch block will catch this exception. While executing catch block variable i become 20 so it will print 20.
+    
+A132. C
+IOException is checked exception.
+
+A133. B,D
+IllegalArgumentException and AssertionError is unchecked exception.
+
+A134. D
+Code compiles and prints “caught inside”. Because nested catch block is able to handle this exception.
+
+A135. A
+Code does not compile because second catch block is unreachable. Parent exception then child exception is not allowed in catch block (Exception is the superclass of all the exception).
+ 
+
+A136. C
+A try block must have either a catch block or finally block or both.
+
+A137. B
+Print “thanks” because while passing -5 in the argument of method m condition written inside if block will become true so return statement of if block will execute and it will try to stop execution of current method and jump outside the method but there is a finally block inside the method which will execute always either exception will thrown or not. 
+
+A138. A
+Finally block gets executed compulsory whether exception is caught or not.
+
+A139. A
+To create our own exception class , we have to extend exception class.
+
+A140. A
+printStackTrace() method is used to print the description of the exception.

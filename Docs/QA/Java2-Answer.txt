@@ -1,0 +1,125 @@
+A46. A    
+Java has only single inheritance.
+
+A47. D   
+ “super” reference must be used in the first statement of the constructor. 
+
+A48. B	
+Because of single inheritance, Mammal can have no other parent than Animal as java does not support multiple inheritances. 
+
+A49. A	
+Computer is the superclass, AppleComputer and IBMComputer are subclasses of Computer.
+
+A50. B	
+The code does not compile because no-argument constructor is not defined in A. As we know that compiler will insert default constructor in every class if there is no constructor. So, default constructor of class B is trying to call the default constructor of class A but it is not available in class A. 
+
+A51. A	
+“this.i” because B extends A.  Because “i” is the protected member of class A and as we know that we can access all the protected of class through inheritance.
+
+A52. C    
+ Code will not compile because we are trying to override the static method f()  in class B.    
+
+A53. D    
+Code will compile successful   because this is legal overriding of getD() method .  In this exercise, we are using covariant return type which is legal for method overriding.  
+
+A54. D   
+Code prints 15 on execution because it is simply adding two no through addNo(….) method.
+
+A55. A	
+Code does not compile because inheritance from String is prohibited. In java String is a final class and we know that final class cannot have any child class.
+
+
+A56. B   
+Compilation error at line 2 because in main method “b” is the reference of class A and with the reference of class A, we can’t access the instance variable of class B.
+
+A57. C  
+Prints As1 Bs2 Bs1 Bs2
+
+A58. A,C    
+Because display is static method and as we know instance is not required for calling the static method. We can access the static member with reference of class. 
+
+A59. A,B,C,D  
+As we know that we can override the method only which we can inherit but in this exercise method of class B has default access means it will accessible only within the package and as per question class B is inherited by some another class which is outside the package So, method of class B is not visible in their subclass.
+
+A60.  B   
+Because we are allocating memory of class B so it will call the method off class B 
+
+A61. A,B,C  
+In this question print() method cannot be accessible in child class because it is private. 
+
+A62. B  
+There is a compilation error because of incorrect overriding of equals method. The return type of equals method must be boolean.
+
+A63. A   
+The code does not compile because of a problem in interface. Method of interface cannot be static.
+
+A64. B
+public  int  doIt(); Because the method of interface is by default  public and abstract and as per rule class must have to override the method of interface.
+
+A65. C
+Code prints 90, because static block will execute at the time of class loading.
+
+A66. C
+Method of interface must be abstract.
+
+A67. A,C,D 
+Variable of interface must be constant i.e. public, static and final.
+
+A68. D
+class Man { private Dog bestFriend; }. This is showing the Has-A relationship .
+
+A69. A  
+public interface B extends A { } because an interface can extends more than one interface not a class but a class can implements  interface.
+
+A70.B 
+Because start() method is overloaded and we have allocated the memory of child class i.e. new TestB().
+
+A71. A
+Because abstract class and interface has same rule that child class must have to override the abstract method and we know that a class can extends a class but implements the interface.
+
+A72. B 
+
+A73.D
+Because the member variable of an interface is by default public, static and final.  So all are good. 
+
+A74. D 
+Because interface I1 and I2 both has name variable and class x is implementing both interface so class X has ambiguous name variable. 
+
+A75. A,C,D
+An interface cannot have final method. As we know that If method is final then nobody can override this method. 
+
+
+A76. C
+Legal overriding of interface is public void f() not public final void f().
+
+A77. A,B,C,D
+Line1 prints true because a1 is instaceof  X
+Line2  print false because there is no relation between class X and interface Y.
+Line3 Compilation Error because String is system defined class and it will not implements interface Y.
+Line4 prints false because null is the default value of all types of object.
+
+A78. B
+Because value of “i” in interface B is 10 and class X implements B so “i” is inherited by class X. 
+
+A79. C  
+Because we can assign only child class into parent class so C is good because obj2 is the object of class C2 and class C2 is implementing one interface I2 so C2 is the child of I2.    
+
+A80. C
+A subclass of an abstract class must not define the abstract methods. It can define abstract method if a subclass of an abstract is also abstract. 
+
+A81. B, D
+The concept of multiple inheritance is implemented in Java by extending one class and implementing one or more interfaces or by implementing two or more interfaces. 
+
+A82. C
+“super” keyword can be used to call super class constructor or access super class member.
+
+A83. B
+A class can implement one or more than one interfaces.
+
+A84. A
+A class implements an interface but does not override all the methods of that interface then it should be declared as abstract class.
+
+
+
+A85. C
+Static method is class level method and there is only one copy of static member available in memory that’s why static method cannot be override. 

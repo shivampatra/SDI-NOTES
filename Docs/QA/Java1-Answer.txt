@@ -1,0 +1,142 @@
+ A1. A	
+Java is completely object-oriented language.
+
+A2. A	
+“OOP” is Object Oriented Programming.
+  
+A3. C	
+JVM (Java virtual machine) does not contain java standard class libraries.
+
+A4. D	
+Bundling attributes and methods together is called “Encapsulation”
+
+A5. B	
+A user-defined data type that defines a collection of objects that share the same characteristics is called “class”
+
+A6. A, B	
+public, private, protected, and default is access specifier in java. 
+
+A7. C. 
+Because main method must take one parameter type of String array, in this case compiler is treating main as a user defined method that’s why it will compile fine but at the runtime it will throw an exception.
+
+A8. C	
+Polymorphism is the ability of a generalized request (message) to produce different results based on the object that it is sent to. This is called “one name multiple form”.
+
+A9. C	
+Abstraction is the feature of OOPS that means ignoring the non-essential details of an object and concentrating on its essential features.
+
+A10. A	
+Inheritance in object-oriented technology defines superclass and subclass relationships.
+
+A11. A	
+Encapsulation is used to describe the internal representation of an object that is hidden from view outside the object's definition.
+
+A12. A	
+Java7 is called Dolphin.
+
+A13. B,D 
+Java doesn’t support pointers and it has same class libraries across all platforms.
+
+A14. B,C 
+java bytecode is platform independent and Only JRE is required to execute java code
+
+A15. A,C 
+JVM and Standard java classes
+A16. A 
+Because “int i” is a local variable (Variable inside method is called local variable) and as per rule local variable must be initialized before using it but “int i” is not initialized and we are printing the value of “i” in line 4.
+
+A17. C   
+Due to size of short is bigger than byte.
+
+A18. B,C 
+Because arithmetic operations between integer value result in int that’s why A and D is not good.
+
+A19 E
+Because “j” is an instance variable and we can call the instance variable with the instance of class inside main method because main method is static.
+
+A20. B
+Because “while” will take only Boolean type of value and 1 is not Boolean.
+
+A21. A
+The code will not compile because we are trying to access label “inner” before declaring the label.
+
+A22. A,E
+Because variable name must start with [A-Z] or [a-z] or underscore(_) or $ sign.  
+
+A23. C
+Because all the floating point literal in java is by default double. So, if we want to store in float we need to cast into float . Below is the valid assignment.
+float f = 16.2f;  or  float f = (float)16.2;
+
+A24. A	
+3.0 Because X is int.
+
+A25. B	
+3.3333333 Because X is float and storing the result id float.
+
+A26. B	
+prints: byte Boolean
+
+A27. D	
+Prints 3,1 because we are swapping the variables 
+
+A28. B	
+Overloading requires same method name but different arguments.
+
+A29. B	
+Prints: 195ab
+
+
+A30. C 	
+Because variable inside method is called local variable and local variable can’t take any access specifier. The scope of local variable is only inside the method.
+
+A31. D	
+Static variable has only one copy available in memory. 
+
+A32. C	
+Constructor can take any access specifier.
+
+A33. A	
+p.name=“Machiel”; because we can access the instance variable inside static method through instance of class.
+
+A34. A	
+1,2 Because the value of x is 1 but when we pass this value to method m1(int x), it returns 2 due to ++x inside method. 
+
+A35. D	
+There is no compilation error anywhere. Method can have any name 
+
+A36. B	
+Prints 2, 3 Because X is a static variable. 
+
+A37. A	
+“Prints: 2,3,4,0,”. Through the loop we are iterating the array and counting the length of each array. 
+
+A38. B	
+“int j:a”  this is enhanced “for loop”
+
+A39. A, C 
+Because there are two package statements but in single source file there can be only one. Same with the class “In single source file there can be only one public class.”
+
+A40. C	
+Package must be all in lower case. It is just convention not rule.
+
+A41 B	
+java.lang.* is imported automatically.
+
+A42. D	
+“import” allows the current code to access classes which are declared in other packages without using their full name.
+
+A43. B,C 
+“B” is not good because package statement must be the first line of source code.
+“C” is not good because there can be only one public class per source code file. 
+
+
+
+A44. A,B,C	
+Class A must be declared public because class B wants to access the property of class A and class B is outside the package.
+Constructor of class A also must be declared public because class B will create the instance of class A for accessing the instance variable of class A i.e. “I” .
+“int i” also must be declared public otherwise it will accessible only within the same package.  
+
+A45. D	
+A class has always a constructor (possibly automatically supplied by the java compiler)
+
+
